@@ -13,6 +13,11 @@
 		0205CF1B25A231870008BE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0205CF1925A231870008BE4B /* Main.storyboard */; };
 		0205CF1D25A231880008BE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0205CF1C25A231880008BE4B /* Assets.xcassets */; };
 		0205CF2025A231880008BE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0205CF1E25A231880008BE4B /* LaunchScreen.storyboard */; };
+		0205CF2C25A231FD0008BE4B /* DataSource+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205CF2B25A231FD0008BE4B /* DataSource+ViewController.swift */; };
+		0205CF3025A232B30008BE4B /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205CF2E25A232B30008BE4B /* UserViewCell.swift */; };
+		0205CF3125A232B30008BE4B /* UserViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0205CF2F25A232B30008BE4B /* UserViewCell.xib */; };
+		0205CF3825A2344F0008BE4B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205CF3725A2344F0008BE4B /* Post.swift */; };
+		0205CF3B25A250600008BE4B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205CF3A25A250600008BE4B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		0205CF1C25A231880008BE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0205CF1F25A231880008BE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0205CF2125A231880008BE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0205CF2B25A231FD0008BE4B /* DataSource+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataSource+ViewController.swift"; sourceTree = "<group>"; };
+		0205CF2E25A232B30008BE4B /* UserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
+		0205CF2F25A232B30008BE4B /* UserViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewCell.xib; sourceTree = "<group>"; };
+		0205CF3725A2344F0008BE4B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0205CF3A25A250600008BE4B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				0205CF1C25A231880008BE4B /* Assets.xcassets */,
 				0205CF1E25A231880008BE4B /* LaunchScreen.storyboard */,
 				0205CF2125A231880008BE4B /* Info.plist */,
+				0205CF2B25A231FD0008BE4B /* DataSource+ViewController.swift */,
+				0205CF2E25A232B30008BE4B /* UserViewCell.swift */,
+				0205CF2F25A232B30008BE4B /* UserViewCell.xib */,
+				0205CF3725A2344F0008BE4B /* Post.swift */,
+				0205CF3A25A250600008BE4B /* User.swift */,
 			);
 			path = URLSessionTest;
 			sourceTree = "<group>";
@@ -127,6 +142,7 @@
 				0205CF2025A231880008BE4B /* LaunchScreen.storyboard in Resources */,
 				0205CF1D25A231880008BE4B /* Assets.xcassets in Resources */,
 				0205CF1B25A231870008BE4B /* Main.storyboard in Resources */,
+				0205CF3125A232B30008BE4B /* UserViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0205CF2C25A231FD0008BE4B /* DataSource+ViewController.swift in Sources */,
+				0205CF3025A232B30008BE4B /* UserViewCell.swift in Sources */,
 				0205CF1825A231870008BE4B /* ViewController.swift in Sources */,
+				0205CF3825A2344F0008BE4B /* Post.swift in Sources */,
 				0205CF1425A231870008BE4B /* AppDelegate.swift in Sources */,
 				0205CF1625A231870008BE4B /* SceneDelegate.swift in Sources */,
+				0205CF3B25A250600008BE4B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
