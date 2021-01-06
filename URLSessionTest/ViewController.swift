@@ -48,13 +48,16 @@ class ViewController: UIViewController {
             guard let data = data else {return}
             
             do{
-                guard let posts = try? JSONDecoder().decode(Posts.self, from: data) else {return}
+                
+                let posts = try JSONDecoder().decode(Posts.self, from: data)
                 DispatchQueue.main.async {
                     completion(posts)
+                    
                 }
                 
-            }catch{
+            } catch {
                 print(error)
+                
             }
             
         }
