@@ -14,7 +14,7 @@ struct Post: Codable {
     let title, body: String
 
     enum CodingKeys: String, CodingKey {
-        case userID
+        case userID = "userId"
         case id, title, body
     }
 }

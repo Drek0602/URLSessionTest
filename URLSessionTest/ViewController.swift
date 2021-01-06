@@ -46,10 +46,15 @@ class ViewController: UIViewController {
         
         let task = session.dataTask(with: url) {(data, response, error) in
             guard let data = data else {return}
-            guard let posts = try? JSONDecoder().decode(Posts.self, from: data) else {return}
             
-            DispatchQueue.main.async {
-                completion(posts)
+            do{
+                guard let posts = try? JSONDecoder().decode(Posts.self, from: data) else {return}
+                DispatchQueue.main.async {
+                    completion(posts)
+                }
+                
+            }catch{
+                print(error)
             }
             
         }
